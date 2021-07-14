@@ -2,9 +2,15 @@
 
 body{ 
     background-color: rgb(255, 0, 242);
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{color: rgb(21, 255, 0);}
+h1{
+    color: rgb(21, 255, 0);
+    font: 50px;
+
+}
 
 article p{ 
     font: size 12px; ;
