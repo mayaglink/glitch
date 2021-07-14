@@ -1,7 +1,7 @@
 /* global defaults */
 
 body{ 
-    background-color: black;
+    background-color: rgb(255, 0, 242);
 }
 
 h1{color: rgb(21, 255, 0);}
@@ -11,9 +11,19 @@ article p{
     color:blue;
 }
 
-.layout-wide{ 
+
+.layout-wide { 
     background-color: crimson;
+
     max-width: 1200px; 
+    padding: 40px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+img{
+    max-width: 100%;
 }
 
 /* headings and typography */
