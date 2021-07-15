@@ -1,10 +1,12 @@
 /* global defaults */
 
 body{ 
-    background-color: rgb(255, 0, 242);
+    background-color: rgb(0, 26, 255);
 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+    
 
 h1{
     color: rgb(21, 255, 0);
@@ -21,7 +23,7 @@ article p{
 .layout-wide { 
     background-color: crimson;
 
-    max-width: 1200px; 
+    max-width: 1000px; 
     padding: 40px;
     margin-right: auto;
     margin-left: auto;
