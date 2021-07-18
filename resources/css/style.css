@@ -1,17 +1,17 @@
 @import url(normalise.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Questrial&family=UnifrakturMaguntia&display=swap');
 
 
 /* global defaults */
 
 
+
 body{ 
     background-color: rgb(0, 26, 255);
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Questrial', sans-serif;
 
     color: blue;
 
@@ -19,20 +19,40 @@ body{
 
 }
 
-    
+  /* needing help with spcaing of dot points and with some writing */  
 
-h1,
+h1, 
 h2,
 h3,
 h4,
 h5{
     color:blue;
-    font: 50px;
-    font-family: 'Press Start 2P', cursive;
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive;
     text-align: center;
 
 }
 
+h1 { 
+    font-size: 60px;
+}
+
+h2 { 
+    font-size: 40px;
+}
+
+
+h3 {
+    font-size: 20px;
+}
+
+    h4 {
+    font-size: 20px;
+}
+
+    h5 {  
+        font-size: 20px;
+    }
 
 
 
