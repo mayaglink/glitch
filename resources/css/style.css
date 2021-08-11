@@ -86,7 +86,43 @@ h3 {
     font-size: 20px;
 }
 
+h7{ color:blue;
+    font: 80px;
+    font-family: 'Lacquer', cursive;
+    text-align: center;
 
+
+} 
+
+h8{ color:blue;
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive; 
+    text-align: center;
+    font-size: 60px;
+}
+
+h9{ color:rgb(255, 0, 0);
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive; 
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h10{ color:rgb(0, 247, 33);
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive; 
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+h11{ color:rgb(252, 252, 252);
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive; 
+    text-align: center;
+    font-size: 60px;
+}
 
 article p{ 
     font: size 12px; ;
