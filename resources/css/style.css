@@ -38,8 +38,13 @@ ul li { display: inline-block;
     transition: all 0.7s ease;
 }
  .footer-nav li{
-     display: block
+     display: block;
+     padding-top: 40px;
+     padding-bottom: 40px;
  }
+
+
+ 
 ul li :hover{ 
     background-color:rgb(0, 26, 255);
 }
@@ -195,6 +200,7 @@ h13{ color:rgb(255, 0, 221);
     text-align: center;
     font-size: 60px;
     background-color: rgb(0, 0, 0);
+    padding-top: 50px;
 
 }
 
