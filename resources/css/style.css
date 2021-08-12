@@ -22,6 +22,26 @@ body{
 
 }
 
+nav { 
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 26, 255);
+}
+
+ul li { display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+ 
+ul li :hover{ 
+    background-color: chartreuse;
+}
+
+
+ul li a {
+    color: rgb(0, 26, 255);
+}
+
   /* needing help with spcaing of dot points and with some writing */  
   /* how to have 'the home of the glitch' */
   /* how to have each piece of writing be their own, I don't understand how there are three h1's */
@@ -55,10 +75,10 @@ h4,
 h5
 h6{
     color:blue;
-    font: 80px;
+    font: 100px;
     font-family: 'Lacquer', cursive;
     text-align: center;
-    
+    background-color: rgb(0, 0, 0);
 }
 
 h1 { 
@@ -71,34 +91,35 @@ h2 {
 
 
 h3 {
-    font-size: 20px;
+    font-size: 80px;
 }
 
     h4 {
-    font-size: 20px;
+    font-size: 80px;
 }
 
     h5 {  
-        font-size: 20px;
+        font-size: 80px;
     }
 
     h6 { 
-    font-size: 20px;
+    font-size: 80px;
 }
 
 h7{ color:blue;
     font: 80px;
     font-family: 'Lacquer', cursive;
     text-align: center;
+    background-color: rgb(0, 0, 0);
+}
 
-
-} 
 
 h8{ color:blue;
     font: 80px;
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
     font-size: 60px;
+    background-color: rgb(0, 0, 0);
 }
 
 h9{ color:rgb(255, 0, 0);
@@ -106,7 +127,7 @@ h9{ color:rgb(255, 0, 0);
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
     font-size: 60px;
-    
+    background-color: rgb(0, 0, 0);
 }
 
 h10{ color:rgb(0, 247, 33);
@@ -114,7 +135,8 @@ h10{ color:rgb(0, 247, 33);
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
     font-size: 60px;
-    
+    background-color: rgb(0, 0, 0);
+
 }
 
 h11{ color:rgb(252, 252, 252);
@@ -122,21 +144,35 @@ h11{ color:rgb(252, 252, 252);
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
     font-size: 60px;
+    background-color: rgb(0, 0, 0);
 }
+
+h13{ color:rgb(255, 0, 221);
+    font: 80px;
+    font-family: 'UnifrakturMaguntia', cursive; 
+    text-align: center;
+    font-size: 60px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+
 
 article p{ 
     font: size 12px; ;
     color:blue;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+
 }
 
 
 .layout-wide { 
     background-color: rgb(0, 0, 0);
 
-    max-width: 1000px; 
-    padding: 40px;
+    max-width: 1200px; 
+    padding: 20px;
     margin-right: auto;
     margin-left: auto;
 
@@ -145,8 +181,11 @@ article p{
 img{
     max-width: 100%;
     text-align: center;
+    src:url(GLITCHSKI_WEB/950DD0D3-5854-4498-927F-DE21B2F17E642.JPEG)
     
 }
+
+
 
 /* headings and typography */
 
@@ -159,4 +198,5 @@ img{
 /* modules */
 
 /* images */
+
 
