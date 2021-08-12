@@ -123,8 +123,8 @@ h3 {
     h3 { font-size: 80px ;}
 
    
-    h4 {
-    font-size: 80px;
+h4 {
+    font-size: 20px;
 }
 @media screen and (min-width: 800px) {
     h4 { font-size: 40px ;}
@@ -139,23 +139,16 @@ h7{  color:rgb(0, 255, 17);
     background-color: rgb(0, 0, 0);
 }
 
-@media screen and (min-width: 800px) {
-    h8 { font-size: 60px ;}
 
-}
 
 h8{ color:blue;
-    font: 80px;
+    font-size: 80px;
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
-    font-size: 30px;
     background-color: rgb(0, 0, 0);
 }
 
-@media screen and (min-width: 800px) {
-    h8 { font-size: 60px ;}
 
-}
     
 
 
@@ -167,6 +160,11 @@ h9{ color:rgb(255, 0, 0);
     background-color: rgb(0, 0, 0);
 }
 
+
+
+
+
+
 h10{ color:rgb(0, 247, 33);
     font: 80px;
     font-family: 'UnifrakturMaguntia', cursive; 
@@ -176,12 +174,19 @@ h10{ color:rgb(0, 247, 33);
 
 }
 
+
+
+
 h11{ color:rgb(252, 252, 252);
     font: 80px;
     font-family: 'UnifrakturMaguntia', cursive; 
     text-align: center;
     font-size: 60px;
     background-color: rgb(0, 0, 0);
+}
+
+
+
 }
 
 h13{ color:rgb(255, 0, 221);
@@ -193,7 +198,20 @@ h13{ color:rgb(255, 0, 221);
 
 }
 
+h14, 
+h15 {
+    font: size 1px; ;
+    color:rgb(0, 247, 33);
+    text-align: center;
+    font-family: 'Lacquer', cursive;
+    background-color: rgb(0, 0, 0);
 
+}
+@media screen and (min-width: 800px) {
+    h14,
+    h15{ font-size: 30px ;}
+
+}
 
 article p{ 
     font: size 12px; ;
@@ -203,7 +221,7 @@ article p{
     background-color: rgb(0, 0, 0);
 
 }
-
+ 
 
 
 
@@ -229,6 +247,7 @@ img{
     
     
 }
+
 
 
 
